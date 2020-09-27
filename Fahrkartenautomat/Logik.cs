@@ -39,7 +39,7 @@ namespace Fahrkartenautomat
                     fahrkarten_Name = "ABC";
                     break;
             }
-            return preis;
+            return Math.Round(preis, 2);
         }
 
         public double Einzahlen(object sender, double eingezahlt)
@@ -84,7 +84,7 @@ namespace Fahrkartenautomat
             //Prüft ob genug Geld eingezahlt wurde
             if (preis <= eingezahlt)
             {
-                double auszahlen_Geld = eingezahlt - preis;
+                double auszahlen_Geld = Math.Round(eingezahlt - preis,2);
                 //Prüft das Wechselgeld
                 for (int i = eingezahlt_List.Count -1; i >= 0; i--)
                 {
@@ -92,8 +92,8 @@ namespace Fahrkartenautomat
                     while (true)
                     {
                         if (eingezahlt_List[i] <= auszahlen_Geld)
-                        {
-                            auszahlen_Geld -= eingezahlt_List[i];
+                        {                        
+                            auszahlen_Geld = Math.Round(auszahlen_Geld - eingezahlt_List[i], 2);
                             auszahlen_Text += $"{eingezahlt_List[i]} Euro, ";
                         }
                         else
