@@ -80,7 +80,7 @@ namespace Fahrkartenautomat
 
         public string Auzahlen(double preis, double eingezahlt)
         {
-            string auszahlen_Text = "";
+            string auszahlen_Text = "Wechselgeld: ";
             //Prüft ob genug Geld eingezahlt wurde
             if (preis <= eingezahlt)
             {
@@ -104,7 +104,7 @@ namespace Fahrkartenautomat
                 }
                 return auszahlen_Text;
             }
-            return auszahlen_Text;
+            return "";
         }
     }
 }
