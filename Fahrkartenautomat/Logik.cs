@@ -75,7 +75,7 @@ namespace Fahrkartenautomat
                     eingezahlt += eingezahlt_List[8];
                     break;
             }
-            return eingezahlt;
+            return Math.Round(eingezahlt,2);
         }
 
         public string Auzahlen(double preis, double eingezahlt)
