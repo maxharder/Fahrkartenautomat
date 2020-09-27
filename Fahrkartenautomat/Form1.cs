@@ -100,7 +100,7 @@ namespace Fahrkartenautomat
 
             button_A.Enabled = false;
             button_AB.Enabled = false;
-            button_AC.Enabled = false;
+            button_BC.Enabled = false;
             button_ABC.Enabled = false;
             label_fahrkartenkosten.Enabled = false;
             label_preis.Enabled = false;
@@ -124,7 +124,7 @@ namespace Fahrkartenautomat
 
             button_A.Enabled = true;
             button_AB.Enabled = true;
-            button_AC.Enabled = true;
+            button_BC.Enabled = true;
             button_ABC.Enabled = true;
             label_fahrkartenkosten.Enabled = true;
             label_preis.Enabled = true;

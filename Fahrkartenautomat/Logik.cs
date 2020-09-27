@@ -23,19 +23,19 @@ namespace Fahrkartenautomat
             switch (button.Name)
             {
                 case "button_A":
-                    preis += 1.40;
+                    preis += 2.00;
                     fahrkarten_Name = "A";
                     break;
                 case "button_AB":
-                    preis += 1.60;
-                    fahrkarten_Name = "B";
+                    preis += 2.90;
+                    fahrkarten_Name = "AB";
                     break;
-                case "button_AC":
-                    preis += 1.60;
-                    fahrkarten_Name = "AC";
+                case "button_BC":
+                    preis += 3.30;
+                    fahrkarten_Name = "BC";
                     break;
                 case "button_ABC":
-                    preis += 2.00;
+                    preis += 3.60;
                     fahrkarten_Name = "ABC";
                     break;
             }

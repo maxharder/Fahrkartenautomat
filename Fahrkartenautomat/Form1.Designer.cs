@@ -33,7 +33,7 @@
             this.tableLayoutPanel_links1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel_links_1_2 = new System.Windows.Forms.TableLayoutPanel();
             this.button_ABC = new System.Windows.Forms.Button();
-            this.button_AC = new System.Windows.Forms.Button();
+            this.button_BC = new System.Windows.Forms.Button();
             this.button_AB = new System.Windows.Forms.Button();
             this.button_A = new System.Windows.Forms.Button();
             this.tableLayoutPanel_links_1_1 = new System.Windows.Forms.TableLayoutPanel();
@@ -136,7 +136,7 @@
             this.tableLayoutPanel_links_1_2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel_links_1_2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel_links_1_2.Controls.Add(this.button_ABC, 1, 1);
-            this.tableLayoutPanel_links_1_2.Controls.Add(this.button_AC, 0, 1);
+            this.tableLayoutPanel_links_1_2.Controls.Add(this.button_BC, 0, 1);
             this.tableLayoutPanel_links_1_2.Controls.Add(this.button_AB, 1, 0);
             this.tableLayoutPanel_links_1_2.Controls.Add(this.button_A, 0, 0);
             this.tableLayoutPanel_links_1_2.Location = new System.Drawing.Point(3, 72);
@@ -158,23 +158,23 @@
             this.button_ABC.Name = "button_ABC";
             this.button_ABC.Size = new System.Drawing.Size(133, 56);
             this.button_ABC.TabIndex = 3;
-            this.button_ABC.Text = "ABC (2.00 Euro)";
+            this.button_ABC.Text = "ABC (3.60 Euro)";
             this.button_ABC.UseVisualStyleBackColor = true;
             this.button_ABC.Click += new System.EventHandler(this.Fahrkarten_Click);
             // 
-            // button_AC
+            // button_BC
             // 
-            this.button_AC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.button_BC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_AC.Location = new System.Drawing.Point(5, 71);
-            this.button_AC.Margin = new System.Windows.Forms.Padding(5);
-            this.button_AC.Name = "button_AC";
-            this.button_AC.Size = new System.Drawing.Size(132, 56);
-            this.button_AC.TabIndex = 2;
-            this.button_AC.Text = "AC (1.60 Euro)";
-            this.button_AC.UseVisualStyleBackColor = true;
-            this.button_AC.Click += new System.EventHandler(this.Fahrkarten_Click);
+            this.button_BC.Location = new System.Drawing.Point(5, 71);
+            this.button_BC.Margin = new System.Windows.Forms.Padding(5);
+            this.button_BC.Name = "button_BC";
+            this.button_BC.Size = new System.Drawing.Size(132, 56);
+            this.button_BC.TabIndex = 2;
+            this.button_BC.Text = "BC (3.30 Euro)";
+            this.button_BC.UseVisualStyleBackColor = true;
+            this.button_BC.Click += new System.EventHandler(this.Fahrkarten_Click);
             // 
             // button_AB
             // 
@@ -186,7 +186,7 @@
             this.button_AB.Name = "button_AB";
             this.button_AB.Size = new System.Drawing.Size(133, 56);
             this.button_AB.TabIndex = 1;
-            this.button_AB.Text = "AB (1.60 Euro)";
+            this.button_AB.Text = "AB (2.90 Euro)";
             this.button_AB.UseVisualStyleBackColor = true;
             this.button_AB.Click += new System.EventHandler(this.Fahrkarten_Click);
             // 
@@ -200,7 +200,7 @@
             this.button_A.Name = "button_A";
             this.button_A.Size = new System.Drawing.Size(132, 56);
             this.button_A.TabIndex = 0;
-            this.button_A.Text = "A (1.40 Euro)";
+            this.button_A.Text = "A (2.00 Euro)";
             this.button_A.UseVisualStyleBackColor = true;
             this.button_A.Click += new System.EventHandler(this.Fahrkarten_Click);
             // 
@@ -567,7 +567,7 @@
         private System.Windows.Forms.Label label_eingezahlt;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel_links1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel_links_1_2;
-        private System.Windows.Forms.Button button_AC;
+        private System.Windows.Forms.Button button_BC;
         private System.Windows.Forms.Button button_AB;
         private System.Windows.Forms.Button button_A;
         private System.Windows.Forms.Button button_ABC;
