@@ -1,0 +1,10 @@
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\bin\Debug\Fahrkartenautomat.exe.config
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\bin\Debug\Fahrkartenautomat.exe
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\bin\Debug\Fahrkartenautomat.pdb
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.csprojAssemblyReference.cache
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.Form1.resources
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.Properties.Resources.resources
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.csproj.GenerateResource.cache
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.exe
+C:\Users\Max\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\Fahrkartenautomat.pdb
